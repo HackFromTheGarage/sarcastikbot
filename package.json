@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "bad-words": "^3.0.0",
@@ -15,6 +16,7 @@
     "fast-levenshtein": "^2.0.6",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
-    "node-sass-middleware": "0.11.0"
+    "node-sass-middleware": "0.11.0",
+    "nodemon": "^1.18.7"
   }
 }
